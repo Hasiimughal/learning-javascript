@@ -1,0 +1,38 @@
+* {
+  font-family: "Times New Roman", Times, serif, Helvetica, sans-serif;
+  /* background-color: black; */
+}
+a {
+  color: white !important;
+}
+#body1 {
+  /* margin-top:10px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: black;
+}
+img {
+  width: 120px;
+  height: 200px;
+}
+.jamil {
+  border: 1px solid gainsboro;
+  box-shadow: 5px 5px 5px gainsboro;
+  border-radius: 15px;
+  height: 406px;
+  visibility: visible;
+
+  overflow: hidden;
+  text-overflow: clip;
+  margin-bottom: 20px;
+  background-color: white !important;
+}
+nav {
+  /* position: relative; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
